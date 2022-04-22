@@ -2,6 +2,7 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
 import warnings
+from sklearn.linear_model import LinearRegression
 warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
